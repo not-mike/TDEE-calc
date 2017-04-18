@@ -18,8 +18,8 @@ def pct(num):
 	percent = num/100
 	return percent
 
-class User(object):
-	"""This class is used to generate a user object, along with basic info (ht, wt, etc), and calculates estimates 
+class CalcBMR(object):
+	"""This class is used to generate a "CalcBMR" object, along with basic user info (ht, wt, etc), and calculates estimates 
 	of Basal Metabolic Rate (BMR) using one of the three most common formulae: 1) Harris-Benedict (Rev.), 
 	Mifflin-St. Jeor, or 3) Katch-McArdle."""
 
