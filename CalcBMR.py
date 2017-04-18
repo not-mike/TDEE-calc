@@ -18,9 +18,9 @@ def pct(num):
 	percent = num/100
 	return percent
 
-class CalcBMR(object):
-	"""This class is used to calculate estimates of Basal Metabolic Rate (BMR) 
-	using one of the three most common formulae: 1) Harris-Benedict (Rev.), 
+class User(object):
+	"""This class is used to generate a user object, along with basic info (ht, wt, etc), and calculates estimates 
+	of Basal Metabolic Rate (BMR) using one of the three most common formulae: 1) Harris-Benedict (Rev.), 
 	Mifflin-St. Jeor, or 3) Katch-McArdle."""
 
 	def __init__(self, name, age, gender, mass, height, bf, activityFactor, goal):
