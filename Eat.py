@@ -20,12 +20,10 @@ os.system('cls' if os.name == 'nt' else 'clear')
 # Describe Eat
 print "\033[95mEAT.\033[0m"
 print "*****"
-string = "Eat is a tool for connecting people with great food. \
+string = "This is a tool for connecting people with great food. \
 Making healthy choices doesn't have to be difficult, and it certainly shouldn't mean giving up \
-on delicious dining options! We've partnered with a team of health and nutrition experts, great chefs\
-, and local farmers to create a one-of-a-kind resource for changing the way we think about food. We \
-hope that it will take some of the guesswork out of the process so you can spend less time counting \
-calories and more time eating great food with friends!\n"
+on delicious dining options! I hope that this will take some of the guesswork out of the process \
+so you can spend less time counting calories and more time eating great food with friends!\n"
 for line in textwrap.wrap(string, replace_whitespace=False):
 	print line
 print "\nI really hope you enjoy it!\n"
